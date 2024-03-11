@@ -1,0 +1,7 @@
+# The variables added in this file are only available locally in MiniOxygen.
+# Run `npx shopify hydrogen link` to also inject environment variables from your storefront,
+# or `npx shopify hydrogen env pull` to populate this file.
+SESSION_SECRET="foobar"
+# SESSION_SECRET="5a57de77e7e5cff1869d0e706f793f5d71926ada"
+PUBLIC_STORE_DOMAIN="mock.shop"
+# PUBLIC_STORE_DOMAIN="b1f910-48.myshopify.com"
