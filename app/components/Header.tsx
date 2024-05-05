@@ -11,17 +11,28 @@ type Viewport = 'desktop' | 'mobile';
 export function Header({header, isLoggedIn, cart}: HeaderProps) {
   const {shop, menu} = header;
   return (
-    <header className="header">
-      <NavLink prefetch="intent" to="/" style={activeLinkStyle} end>
-        <strong>{shop.name}</strong>
-      </NavLink>
-      <HeaderMenu
-        menu={menu}
-        viewport="desktop"
-        primaryDomainUrl={header.shop.primaryDomain.url}
-      />
-      <HeaderCtas isLoggedIn={isLoggedIn} cart={cart} />
-    </header>
+   
+      <ul className="nav justify-content-center">
+  <li className="nav-item">
+    <a className="nav-link " href="#">Home</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Catalog</a>
+  </li>
+  <li className='nav-item'>
+    <img src="img/logo.svg" alt="LOgo" />
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">FAQ</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link active" href="#">Sign up</a>
+  </li>
+</ul>
+
+
+   
+   
   );
 }
 

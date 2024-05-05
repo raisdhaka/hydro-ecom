@@ -22,6 +22,8 @@ import resetStyles from './styles/reset.css';
 import appStyles from './styles/app.css';
 import {Layout} from '~/components/Layout';
 
+
+
 /**
  * This is important to avoid re-fetching root queries on sub-navigations
  */
@@ -116,6 +118,10 @@ export default function App() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <Meta />
+        <link href="./bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./aos/dist/aos.css" />
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
+
         <Links />
       </head>
       <body>
