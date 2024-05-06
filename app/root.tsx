@@ -120,8 +120,11 @@ export default function App() {
         <Meta />
         <link href="./bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
         <link rel="stylesheet" href="./aos/dist/aos.css" />
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
-
+        <link rel="preconnect" href="//fonts.googleapis.com" />
+        <link rel="preconnect" href="//fonts.gstatic.com" crossorigin />
+        <link href="//fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
+        <link href="//fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"></link>
+        <link href="//fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet"></link>
         <Links />
       </head>
       <body>

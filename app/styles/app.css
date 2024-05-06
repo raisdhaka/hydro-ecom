@@ -562,3 +562,41 @@ main{
   background: red;
   color: #fff !important;
 }
+
+.sliderOverflow h1,.sliderOverflow h3{
+  font-family: "Fjalla One", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sliderOverflow h3{
+  font-size: 24px;
+}
+.btnCata{
+  color:#D9D9D9;
+}
+.btnCataC{
+  color: #FF0000;
+}
+
+.exploreMore{
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.exploreMore{
+  color: FFFFFF;
+  -webkit-text-fill-color: #1E1E1E; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: FFFFFF;
+}
+
+.exploreMore span{
+  color: #FF0000;
+  -webkit-text-fill-color: #1E1E1E; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FF0000;
+}

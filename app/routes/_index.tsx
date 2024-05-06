@@ -54,9 +54,9 @@ function Sliders() {
         <div className="sliderOverflow text-center">
           <h1>ART<br />
             FOR YOUR TOUCH.</h1>
-          <h3>振り向くな、振り向くな、後ろには夢がない </h3>
-          <a href="#">Browse Catalogue</a><br />
-          <a href="#">七転び八起き</a>
+          <h3 className="py-3">振り向くな、振り向くな、後ろには夢がない </h3>
+          <a href="#" className="btnCata">Browse Catalogue</a><br /><br/>
+          <a href="#" className="btnCataC">七転び八起き</a>
         </div>
         <div className="socliaArea">
           <a href="#"><img src="img/so_fb.png" alt="facebook" /></a>
@@ -108,7 +108,7 @@ function OurCategory() {
               <a href="#" className="btn btn-lg cat">Pillow Collection</a>
           </div>
           <div className="col-sm-6" data-aos="zoom-in">
-            <h1 className="exploreMore">Explore More</h1>
+            <h1 className="exploreMore">Explore <br/><span>More</span></h1>
             <a href="#" className="btn btn-lg catw">Full Catalogue</a>
           </div>
         </div>
